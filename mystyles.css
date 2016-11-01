@@ -1,0 +1,61 @@
+body {
+    font-family: "Comic Sans MS", Arial, Helvetica, sans-serif;
+    background: #444;
+    padding:10px; }
+
+h1,h2,h3,h5{
+    font-family: "Comic Sans MS", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;  }
+
+#container {
+    width: 960px;
+    background-color: #d7e1f2;
+    margin: 0 auto;
+    text-align: center;
+    color:#444; }
+
+div.mybdr {border-style: solid;
+    border-width: 2px;
+    border-color: #444;
+    min-height: 500px;}
+
+.head{  font-style:italic;
+    font-weight: bold;
+    text-align:center;
+    background-color:#444;
+    color: white; }
+
+.head p {text-align: left;}
+.right-footer {text-align: right;}
+.left-footer {text-align: left;}
+.bottom-border {border-bottom: 4px solid #444;}
+
+#todo-list {display: none;}
+
+form {
+    display: inline-block;
+}
+.form-class {text-align: center;}
+
+#button{
+    display: inline-block;
+    height:20px;
+    width:20px;
+    background-color:#444;
+    font-family:arial;
+    font-weight:bold;
+    color:#ffffff;
+    border-radius: 5px;
+    text-align:center;
+    margin-top:2px;
+}
+
+.list {
+    font-family:garamond;
+    color:#808080;
+    font-size: 2.0em;
+    text-align: left;  }
+
+#shopping-list {padding-left: 15%;}
+#todo-list {padding-left: 60%;}

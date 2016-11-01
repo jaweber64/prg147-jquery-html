@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>jQuery HTML</title>
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" href="/lib/w3-theme-grey.css">
+    <link rel="stylesheet" href="mystyles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
+
+<body>
+<div id="container" class="w3-panel w3-round-xlarge mybdr">
+    <header class="w3-panel w3-round head" >
+        <h1>jQuery HTML</h1>
+        <p>In the JQuery course on CodeAcademy, finish section 3: Dynamic HTML <br>
+            The end of the practice has a web page adding and subtracting information for a checklist, do a similar
+            but not identical web page. Possible options: Shopping list, Party plans, homework tracker.</p>
+    </header>
+
+    <div class="w3-panel w3-round-xlarge mybdr">
+        <div class = "w3grid">
+            <div id="shopping" class="w3-half bottom-border">
+                <h2>Shopping</h2>
+            </div>
+            <div id="todo" class="w3-half">
+                <h2>To Do</h2>
+            </div>
+        </div>
+
+        <div>&nbsp;</div>
+        <div>&nbsp;</div>
+        <div class="form-class">
+            <form name="checkListForm">
+                <input type="text" id="item" name="checkListItem"/>
+            </form>
+            <div id="button">+</div>
+            <br/>
+                <div id="shopping-list" class="list"></div>
+                <div id="todo-list" class="list"></div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="w3-row">
+            <div class="w3-half left-footer">
+                <p>&copy Janet Weber</p>
+            </div>
+            <div class="w3-half right-footer">
+                <p>PRG-147 Fall 2016</p>
+            </div>
+        </div>
+    </footer>
+<script src="jq-html.js"></script>
+</div>
+</body>
+</html>
